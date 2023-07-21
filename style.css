@@ -460,3 +460,50 @@ hr {
 .pos {
   margin-left: 20px;
 }
+
+/* message bar ---------------------------------------------*/
+
+.msg-bar {
+  height: 48px;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 8px;
+  gap: 10px;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: -2px -2px 5px 0px #00000030;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+}
+
+.msg-txt {
+  width: 100%;
+}
+
+.msg-img-container {
+  position: relative;
+}
+
+.msg-img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.msg-status {
+  height: 10px;
+  width: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: #057642;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.msg-icon {
+  height: 18px;
+}
+
+.margin {
+  margin-right: 10px;
+}
