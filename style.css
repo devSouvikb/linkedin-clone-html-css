@@ -280,3 +280,147 @@ nav {
   padding-top: 16px;
   border-top: 1px solid #00000033;
 }
+
+/* main section ---------------------------------------------------------------*/
+
+/* post section */
+.post-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.post-profile-img {
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.post-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.post-input {
+  height: 50px;
+  width: 500px;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 24px;
+  border: 1px solid #00000099;
+}
+
+.post-items {
+  margin: 0 16px;
+}
+
+.post-item {
+  gap: 5px;
+}
+
+.photo-icon {
+  height: 24px;
+  filter: invert(60%) sepia(60%) saturate(5299%) hue-rotate(190deg)
+    brightness(99%) contrast(85%);
+}
+
+.video-icon {
+  height: 24px;
+  filter: invert(51%) sepia(40%) saturate(560%) hue-rotate(56deg)
+    brightness(96%) contrast(93%);
+}
+
+.job-icon {
+  height: 24px;
+  filter: invert(50%) sepia(74%) saturate(1673%) hue-rotate(227deg)
+    brightness(95%) contrast(91%);
+}
+
+.article-icon {
+  height: 24px;
+  filter: invert(47%) sepia(73%) saturate(514%) hue-rotate(326deg)
+    brightness(91%) contrast(93%);
+}
+
+/* Short Section */
+.short-container {
+  margin: 10px 0;
+}
+
+hr {
+  height: 1px;
+  width: 450px;
+  display: block;
+  background-color: #00000033;
+}
+
+.short-txt {
+  color: #000000;
+}
+
+/* feed section */
+.feed-container {
+  background-color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.feed-profile-container {
+  gap: 5px;
+}
+
+.feed-profile-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  width: 473px;
+}
+
+.name-title {
+  gap: 5px;
+}
+
+.feed-icon {
+  height: 24px;
+}
+
+.feed-icons {
+  gap: 10px;
+}
+
+.upload {
+  gap: 5px;
+}
+
+.feed-post-txt {
+  margin-top: 10px;
+}
+
+/* feed post activity section */
+.feed-activity-container {
+  margin: 10px 0;
+}
+
+.activity-count {
+  gap: 15px;
+}
+
+.feed-activity-icons {
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-top: 1px solid #0000002e;
+}
+
+.activity-icon {
+  gap: 5px;
+}
+
+.icon-activity {
+  height: 24px;
+}
