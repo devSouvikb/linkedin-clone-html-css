@@ -1,3 +1,82 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* font-family: 'Poppins', sans-serif; */
+
+/* global styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f2ef;
+}
+
+/* color variables */
+:root {
+  --primary-color: #0a66c3;
+}
+
+/* utility classes ----------------------------------------------------------------*/
+
+/* font styles */
+.txt-small {
+  font-size: 12px;
+}
+
+.txt-medium {
+  font-size: 14px;
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
+.color-one {
+  color: #00000099;
+}
+
+.color-two {
+  color: var(--primary-color);
+}
+
+.hover-txt-color:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+/* flex properties*/
+.flex {
+  display: flex;
+}
+
+.justify-content-sb {
+  justify-content: space-between;
+}
+
+.justify-content-c {
+  justify-content: center;
+}
+
+.align-items-c {
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------------- */
+.icon-color {
+  filter: invert(0%) sepia(8%) saturate(7500%) hue-rotate(355deg)
+    brightness(103%) contrast(110%);
+  opacity: 60%;
+}
+
+.hover-bgc-color:hover {
+  background-color: #ebebeb;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
