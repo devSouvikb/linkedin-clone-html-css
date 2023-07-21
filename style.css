@@ -424,3 +424,39 @@ hr {
 .icon-activity {
   height: 24px;
 }
+
+/* aside section -----------------------------------------------------------*/
+.aside-container {
+  background-color: #ffffff;
+  padding: 16px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.aside-title-icon {
+  height: 18px;
+}
+
+.ad-container {
+  height: 280px;
+  width: 336px;
+  border-radius: 8px;
+  background: url(./assets/assets-63.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 24px;
+}
+
+.aside-txt-container {
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.aside-icon-position {
+  margin-top: 10px;
+}
+
+.pos {
+  margin-left: 20px;
+}
